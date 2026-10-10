@@ -1,5 +1,5 @@
 function Armstrong(number) {
-  let temp = n;
+  let temp = number;
   let sum = 0;
   while (temp > 0) {
     rem = temp % 10;
@@ -13,4 +13,4 @@ function Armstrong(number) {
   }
 }
 
-console.log(Armstrong(153));
+console.log(Armstrong(123));
